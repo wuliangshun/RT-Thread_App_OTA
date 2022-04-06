@@ -1,0 +1,17 @@
+[
+ {
+  "path": "/packages/security/libsodium", 
+  "ver": "latest", 
+  "name": "LIBSODIUM"
+ }, 
+ {
+  "path": "/packages/multimedia/gui_engine", 
+  "ver": "latest", 
+  "name": "GUIENGINE"
+ }, 
+ {
+  "path": "/packages/system/fal", 
+  "ver": "v1.0.0", 
+  "name": "FAL"
+ }
+]

@@ -1,0 +1,179 @@
+packages/fal-v1.0.0/samples/porting/fal_flash_sfud_port.o: \
+ ../packages/fal-v1.0.0/samples/porting/fal_flash_sfud_port.c \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rtconfig_preinc.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\packages\fal-v1.0.0\inc/fal.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota/rtconfig.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\applications/fal_cfg.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\drivers/board.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\drivers/realview.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\libcpu\arm\cortex-a/armv7.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\drivers/vexpress_a9.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtdef.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_signal.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota/cconfig.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtlibc.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_stat.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_errno.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_fcntl.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_ioctl.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_dirent.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_signal.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_fdset.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\drivers/realview.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\packages\fal-v1.0.0\inc/fal_def.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc/sfud.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc/sfud_def.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc/sfud_cfg.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc/sfud_flash_def.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi/spi_flash_sfud.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtthread.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtdebug.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtservice.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtm.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\finsh/finsh_api.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/rtdevice.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/ringbuffer.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/completion.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/dataqueue.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/workqueue.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/waitqueue.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/pipe.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/poll.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/ringblk_buf.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/rtc.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/spi.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mtd_nor.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mtd_nand.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/serial.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/i2c.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/i2c_dev.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/i2c-bit-ops.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mmcsd_core.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mmcsd_host.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mmcsd_card.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mmcsd_cmd.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/sd.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/sdio.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/sdio_func_ids.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/watchdog.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/pin.h \
+ d:\rt-threadstudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc\sfud.h \
+ D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi/spi_flash.h
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rtconfig_preinc.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\packages\fal-v1.0.0\inc/fal.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota/rtconfig.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\applications/fal_cfg.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\drivers/board.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\drivers/realview.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\libcpu\arm\cortex-a/armv7.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\drivers/vexpress_a9.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtdef.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_signal.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota/cconfig.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtlibc.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_stat.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_errno.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_fcntl.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_ioctl.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_dirent.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_signal.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/libc/libc_fdset.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\drivers/realview.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\packages\fal-v1.0.0\inc/fal_def.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc/sfud.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc/sfud_def.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc/sfud_cfg.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc/sfud_flash_def.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi/spi_flash_sfud.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtthread.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtdebug.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtservice.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\include/rtm.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\finsh/finsh_api.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/rtdevice.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/ringbuffer.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/completion.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/dataqueue.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/workqueue.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/waitqueue.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/pipe.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/poll.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/ipc/ringblk_buf.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/rtc.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/spi.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mtd_nor.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mtd_nand.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/serial.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/i2c.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/i2c_dev.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/i2c-bit-ops.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mmcsd_core.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mmcsd_host.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mmcsd_card.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/mmcsd_cmd.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/sd.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/sdio.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/sdio_func_ids.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/watchdog.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\include/drivers/pin.h:
+
+d:\rt-threadstudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi\sfud\inc\sfud.h:
+
+D:\RT-ThreadStudio\workspace\rtt-qemu-ota\rt-thread\components\drivers\spi/spi_flash.h:
