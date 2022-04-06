@@ -1,22 +1,9 @@
-# QEMU/VExpress A9板级支持包说明
+# 说明
+嵌入式系统中，由于功能变化、故障修复等原因，需要对嵌入式系统中的应用程序软件版本进行升级，即采用新的APP(应用程序)替代原来的APP(应用程序)。一般升级流程为：首先采用FTP或HTTP等网络下载方式，或者串口下载方式，将升级包首先下载到设备闪存中，重启设备进入开始升级；然后从闪存中读取升级包到内存再对其进行校验，校验成功后再将其写入闪存中覆盖原软件包。为保证升级过程的安全性，需要解决可升级代码模块身份验证、安全回卷机制、可升级模块安全性在线评估技术、可升级模块安全性在线保护技术、升级模块的“即插即用”等关键技术。
 
-## 1. 简介
+QEMU/VExpress A9板级支持包
 
-Versatile Express系统由ARM Ltd提供，作为CortexA9四核处理器的开发环境，硬件由uATX主板和CoreTile Express A9x4子板组成。有关该系统的详细信息，可以访问 [ARM官方页面][1] 。
 
-Versatile Express的核心是一套FPGA的开发环境，Cortex-A芯片基于FPGA上的硬件逻辑，所以本身是不存在这么一款真实芯片。
-
-QEMU/VExpress A9是QEMU模拟器针对ARM VExpress-A9 FPGA开发板进行软件模拟的指令级虚拟机。QEMU/VExpress因为是软件仿真模式，可以配置成多种模式，例如单核Cortex-A9，多核Cortex-A9，以及多核Cortex-A15等。同时也能够模拟出VExpress FPGA开发板上大多数的外设。
-
-这份RT-Thread BSP是针对QEMU/VExpress-A9的一份移植，也并未在真实的VExpress FPGA开发板上运行过，主要是提供给开发者一定的便利，能够使用、验证一定的功能。对于真实FPGA开发板的执行情况，不做任何假设。
-
-当前QEMU/VExpress-A9对应的硬件特性：
-
-| 硬件 | 描述 |
-| -- | -- |
-| CPU | ARM Cortex-A9（单核） |
-| 主频 | NA |
-| Memory | 128MB(0x60000000 - 0x68000000) |
 
 ## 2. 编译说明
 
