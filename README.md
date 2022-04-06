@@ -3,7 +3,7 @@
 
 QEMU/VExpress A9板级支持包
 
-![avatar](https://github.com/wuliangshun/RT-Thread_App_OTA/tree/master/output/flow.png)
+![avatar](output/flow.png)
 
 ## 2. 编译说明
 
