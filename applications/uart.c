@@ -21,7 +21,7 @@ static rt_err_t uart_input(rt_device_t dev, rt_size_t size)
     {
         if(ch=='U' && is_upgrade==0)
         {
-            rt_kprintf("[%s] receive:  U. \n", SAMPLE_UART_NAME);
+            rt_kprintf("[%s]     receive:  U. \n\n", SAMPLE_UART_NAME);
 
 
             is_upgrade = 1;

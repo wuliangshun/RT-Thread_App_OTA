@@ -9,6 +9,7 @@ O_SRCS += \
 ../build/applications/drv_keyboard.o \
 ../build/applications/files.o \
 ../build/applications/lcd_init.o \
+../build/applications/main.o \
 ../build/applications/mnt.o \
 ../build/applications/monitor.o \
 ../build/applications/sha256.o \

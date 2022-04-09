@@ -96,6 +96,11 @@ void cpy_file(const char* src, const char* dst)
     }
 }
 
-
+void read_config_xml(char* rxml)
+{
+    RT_ASSERT(rxml != RT_NULL);
+    const char* xml = "<app>\n    < path='dowload/lib10.so'/>\n    < base_class='base_plugin'/>\n    < params>\n          <argc=2/>\n          <argv='char*,int'/>\n    </params>\n    <returns='int'>\n</app>";
+    rt_strncpy(rxml, xml, BUFFER_SIZE);
+}
 
 
